@@ -14,6 +14,6 @@ func main() {
 
 	fmt.Println(s)
 	fmt.Println(d)           // constants perform arithmetic with arbitrary precision
-	fmt.Println(int64(d))    // expllicit cast
+	fmt.Println(int64(d))    // explicit cast
 	fmt.Println(math.Sin(n)) // implicit type via func (also assignment)
 }
